@@ -1,0 +1,76 @@
+@font-face{}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 88px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.header__menu-button {
+    height: 40px;
+    width: 40px;
+    background-image: url(./images/menu.svg);
+}
+.header__logo {
+    height: 50px;
+}
+
+.header__logo::after{
+    content: " ";
+    height: 28px;
+    width: 5px;
+    border: 2px solid #000;
+}
+.contacts {
+    display: none;
+    
+}
+.contacts__phone-button {
+    height: 40px;
+    width: 40px;
+    background-image: url(./images/call.svg);
+}
+.contacts__chat-button {
+    height: 40px;
+    width: 40px;
+    background-image: url(./images/chat.svg);
+}
+.contacts__other-button {
+    height: 40px;
+    width: 40px;
+    background-image: url(./images/profile.svg);
+}
+.header__repair-button {
+    height: 40px;
+    width: 40px;
+    background-image: url(./images/repair.svg);
+}
+.header__status-button {
+    height: 40px;
+    width: 40px;
+    background-image: url(./images/checkstatus.svg);
+}
+.main {
+    background-color: #f8f8f8;
+}
+.title {
+}
+.navigation {
+}
+.navigation__item {
+}
+.description {
+}
+.description__information {
+}
+.description__more {
+}
+.description__image {
+}

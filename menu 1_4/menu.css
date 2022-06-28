@@ -41,6 +41,10 @@ body {
     border: unset;
     background-color: unset;
     margin-right: 16px;
+    transition: all .3s;
+}
+.header__button-close:hover{
+    transform: rotate(45deg);
 }
 .header__logo {
     width: 97px;
@@ -68,6 +72,7 @@ body {
     text-decoration: none;
     color: black;
     vertical-align: middle;
+    transition: all .3s;
 }
 
 .main-container__item:visited{
@@ -86,6 +91,10 @@ body {
     position: absolute;
     left: -5px;
     transform: translateY(-7px);
+}
+.main-container__item:hover{
+    font-size: 18px;
+
 }
 .footer {
     padding-left: 24px;
